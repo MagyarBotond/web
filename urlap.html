@@ -1,141 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+
+    <nav>
+        <a href="keplink.html">KÉPLINK FELADAT</a> |
+        <a href="listák.html">LISTÁK FELADAT</a> |
+        <a href="táblázat.html">TÁBLÁZAT FELADAT</a> |
+        <a href="urlap.html">ÜRLAP FELADAT</a>
+    </nav>
+
     <h1>Pizza ház </h1>
-<form>
-<fieldset>
-    <label for="fname">Ad meg a neveded:</label>
-    <input type="text" id="fname" name="fname" value="">
+    <form>
+        <fieldset>
+            <label for="fname">Ad meg a neveded:</label>
+            <input type="text" id="fname" name="fname" value="">
+            <br>
+            <label for="fname">Ad meg a telefon számodat:</label>
+            <input type="text" id="fname" name="fname" value="">
+            <br>
+            <label for="fname">Ad meg a lakcímedet:</label>
+            <input type="text" id="fname" name="fname" value="">
+        </fieldset>
+        <fieldset>
+            <legend>Fizetési módok</legend>
+            <input type="radio" id="készpénz" name="fizetési mód" value="készpénz">
+            <label for="készpénz">Készpénz</label>
+            <br>
+            <input type="radio" id="bankkártya" name="fizetési mód" value="bankkártya">
+            <label for="bankkártya">Bankkártya</label>
+            <br>
+            <input type="radio" id="szépkártya" name="fizetési mód" value="Szépkartya">
+            <label for="szépkártya">Szépkártya</label>
+        </fieldset>
+        <fieldset>
+            <legend>pizza mérete</legend>
+            <input type="radio" id="legkisebb" name="méret" value="egy szelet">
+            <label for="legkisebb">egy szelet</label>
+
+            <input type="radio" id="kicsi" name="méret" value="kicsi pizza">
+            <label for="kicsi">kicsi (25cm)</label>
+
+            <input type="radio" id="közepes" name="méret" value="közepes pizza">
+            <label for="közepes">közepes (32cm)</label>
+
+            <input type="radio" id="nagy" name="méret" value="nagy pizza">
+            <label for="nagy">nagy (50cm)</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Pizza szószok</legend>
+            <input type="radio" id="paradicsom" name="szószod" value="paradicsomos alap">
+            <label for="paradicsomos">paradicsomos alap</label>
+            <br>
+            <input type="radio" id="csípős" name="szószod" value="csípős alap">
+            <label for="csípős">csípős alap</label>
+            <br>
+            <input type="radio" id="tejfölös" name="szószod" value="tejfölös alap">
+            <label for="tejföl">tejfölös alap</label>
+        </fieldset>
+        <fieldset>
+            <legend>Sajtfajták (cheese types)</legend>
+            <input type="checkbox" name="cheese type" id="cheese1">
+            <label for="cheese1">mozzarella</label>
+            <br>
+            <input type="checkbox" name="cheese type" id="cheese2">
+            <label for="cheese2">cheddar sajt</label>
+            <br>
+            <input type="checkbox" name="cheese type"" id=" cheese3">
+            <label for="cheese3">érlelt cheddar</label>
+            <br>
+            <input type="checkbox" name="cheese type"" id=" cheese4">
+            <label for="cheese4">kecske sajt</label>
+            <br>
+            <input type="checkbox" name="cheese type"" id=" cheese5">
+            <label for="cheese5">gorgonzola</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pizza feltétek</legend>
+            <input type="checkbox" name="toping" id="toping1">
+            <label for="toping1">gomba</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping2">
+            <label for="toping2">csirke hús</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping3">
+            <label for="toping3">sonka</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping4">
+            <label for="toping4">darált marhahús</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping5">
+            <label for="toping5">ananász</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping6">
+            <label for="toping6">olivabogyó</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping7">
+            <label for="toping7">brokkoli</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping8">
+            <label for="toping8">lila hagyma</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping9">
+            <label for="toping9">garnélarák</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping10">
+            <label for="toping10">pepperoni</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping11">
+            <label for="toping11">szalona</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping12">
+            <label for="toping12">csili</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping13">
+            <label for="toping13">paprika</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping14">
+            <label for="toping14">kukorica</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping15">
+            <label for="toping15">szárított paradicsom</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping16">
+            <label for="toping15">kagyló</label>
+            <br>
+            <input type="checkbox" name="toping" id="toping17">
+            <label for="toping17">polip</label>
+            <br>
+        </fieldset>
+        <fieldset>
+            <label for="Rendelési idő">rendelési idő:</label>
+            <input type="date" id="rendelési idő" name="rendelési idő">
+        </fieldset>
+    </form>
     <br>
-    <label for="fname">Ad meg a telefon számodat:</label>
-    <input type="text" id="fname" name="fname" value="">
+    <input type="submit" value="RENDELÉS">
+    <input type="submit" value="VISZVONÁS">
     <br>
-    <label for="fname">Ad meg a lakcímedet:</label>
-    <input type="text" id="fname" name="fname" value="">
-</fieldset>
-<fieldset>
-    <legend>Fizetési módok</legend>
-    <input type="radio"id="készpénz" name="fizetési mód" value="készpénz">
-    <label for="készpénz">Készpénz</label>
-<br>
-    <input type="radio"id="bankkártya" name="fizetési mód" value="bankkártya">
-    <label for="bankkártya">Bankkártya</label>
-<br>
-    <input type="radio"id="szépkártya" name="fizetési mód" value="Szépkartya">
-    <label for="szépkártya">Szépkártya</label>
-</fieldset>
-<fieldset>
-    <legend>pizza mérete</legend>
-    <input type="radio"id="legkisebb" name="méret" value="egy szelet">
-    <label for="legkisebb">egy szelet</label>
-
-    <input type="radio"id="kicsi" name="méret" value="kicsi pizza">
-    <label for="kicsi">kicsi (25cm)</label>
-
-    <input type="radio"id="közepes" name="méret" value="közepes pizza">
-    <label for="közepes">közepes (32cm)</label>
-
-    <input type="radio"id="nagy" name="méret" value="nagy pizza">
-    <label for="nagy">nagy (50cm)</label>
-
-</fieldset>
-<fieldset>
-    <legend>Pizza szószok</legend>
-    <input type="radio"id="paradicsom" name="szószod" value="paradicsomos alap">
-    <label for="paradicsomos">paradicsomos alap</label>
-<br>
-    <input type="radio"id="csípős" name="szószod" value="csípős alap">
-    <label for="csípős">csípős alap</label>
-<br>
-    <input type="radio"id="tejfölös" name="szószod" value="tejfölös alap">
-    <label for="tejföl">tejfölös alap</label>
-</fieldset>
-<fieldset>
-    <legend>Sajtfajták (cheese types)</legend>
-    <input type="checkbox" name="cheese type" id="cheese1">
-    <label for="cheese1">mozzarella</label>
-<br>
-    <input type="checkbox" name="cheese type" id="cheese2">
-    <label for="cheese2">cheddar sajt</label>
-<br>
-    <input type="checkbox" name="cheese type"" id="cheese3">
-    <label for="cheese3">érlelt cheddar</label>
-<br>
-    <input type="checkbox" name="cheese type"" id="cheese4">
-    <label for="cheese4">kecske sajt</label>
-<br>
-<input type="checkbox" name="cheese type"" id="cheese5">
-<label for="cheese5">gorgonzola</label>
-</fieldset>
-
-<fieldset>
-    <legend>Pizza feltétek</legend>
-    <input type="checkbox" name="toping" id="toping1">
-    <label for="toping1">gomba</label>
-<br>
-    <input type="checkbox" name="toping" id="toping2">
-    <label for="toping2">csirke hús</label>
-<br>
-    <input type="checkbox" name="toping" id="toping3">
-    <label for="toping3">sonka</label>
-<br>
-    <input type="checkbox" name="toping" id="toping4">
-    <label for="toping4">darált marhahús</label>
-<br>
-    <input type="checkbox" name="toping" id="toping5">
-    <label for="toping5">ananász</label>
-<br>
-    <input type="checkbox" name="toping" id="toping6">
-    <label for="toping6">olivabogyó</label>
-<br>
-    <input type="checkbox" name="toping" id="toping7">
-    <label for="toping7">brokkoli</label>
-<br>
-    <input type="checkbox" name="toping" id="toping8">
-    <label for="toping8">lila hagyma</label>
-<br>
-    <input type="checkbox" name="toping" id="toping9">
-    <label for="toping9">garnélarák</label>
-<br>
-    <input type="checkbox" name="toping" id="toping10">
-    <label for="toping10">pepperoni</label>
-<br>
-    <input type="checkbox" name="toping" id="toping11">
-    <label for="toping11">szalona</label>
-<br>
-    <input type="checkbox" name="toping" id="toping12">
-    <label for="toping12">csili</label>
-<br>
-    <input type="checkbox" name="toping" id="toping13">
-    <label for="toping13">paprika</label>
-<br>
-    <input type="checkbox" name="toping" id="toping14">
-    <label for="toping14">kukorica</label>
-<br>
-    <input type="checkbox" name="toping" id="toping15">
-    <label for="toping15">szárított paradicsom</label>
-<br>
-    <input type="checkbox" name="toping" id="toping16">
-    <label for="toping15">kagyló</label>
-<br>
- <input type="checkbox" name="toping" id="toping17">
-<label for="toping17">polip</label>
-<br>
-</fieldset>
-<fieldset>
-    <label for="Rendelési idő">rendelési idő:</label>
-    <input type="date" id="rendelési idő" name="rendelési idő">
-</fieldset>
-</form>
- <br>
- <input type="submit" value="RENDELÉS">
- <input type="submit" value="VISZVONÁS">
- <br>
- <p><a href="index.html">Vissza a főoldarla!</a></p>
+    <p><a href="index.html">Vissza a főoldarla!</a></p>
 </body>
+
 </html>
