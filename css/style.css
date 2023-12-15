@@ -6,3 +6,6 @@ body{
     color: white;
     background-color: rgb(97, 97, 97);
 }
+li {
+    float: left;
+  }
