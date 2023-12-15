@@ -7,13 +7,13 @@ body{
     background-color: rgb(78, 78, 78);
 }
 
-nav {
+a:link{
     color:rgb(167, 0, 0);
     text-decoration: none;
     background-color: rgb(209, 128, 21)) 20);
 }
 
-nav:hover{ 
+a:hover{ 
     color: rgb(0, 0, 167);
     font-weight: bold;
 }
