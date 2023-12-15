@@ -4,30 +4,5 @@ footer{
 
 body{
     color: white;
-    background-color: rgb(255, 207, 103);
+    background-color: rgb(97, 97, 97);
 }
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffbb00;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #ffbb00;
-  }
