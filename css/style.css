@@ -14,6 +14,9 @@ a:link{
 }
 
 a:hover{ 
-    color: rgb(0, 0, 167);
+    color: rgb(100, 100, 139);
     font-weight: bold;
+}
+nav{
+    background-color: ;
 }
