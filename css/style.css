@@ -10,10 +10,27 @@ body{
 a:link{
     color:rgb(167, 0, 0);
     text-decoration: none;
-    background-color: rgb(209, 128, 21)) 20);
 }
 
 a:hover{ 
-    color: rgb(100, 100, 139);
+    color: rgb(184, 184, 255);
     font-weight: bold;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ffc861;
+  }
+  
+  li a {
+    display: block;
+    color: #000;;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #ffa600;
+    color: rgb(0, 0, 0);
+  }
