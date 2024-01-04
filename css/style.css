@@ -29,4 +29,27 @@ li {
         background-color: #ff8800;
         font-weight: bold;
     }
+.box1{
+    background-color: rgb(25, 0, 255);
+    
+   
+}
+.box2{
+    background-color: rgb(255, 0, 0);
+
+}
+.box3{
+    background-color: rgb(140, 0, 255);
+    width: 200px;
+    height: 100px;
+    clear: both;
+    text-align: center;
+ }
+ .box1,.box2{
+width: 100px;
+height: 100px;
+float: left;
+text-align: right;
+
+ }
    
