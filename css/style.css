@@ -52,4 +52,10 @@ float: left;
 text-align: right;
 
  }
-   
+ .evszakok{
+    text-align: center;
+    border:solid 2px #ff8800;
+    width: 200px;
+    height: 300px;
+
+ }
