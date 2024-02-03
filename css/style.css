@@ -52,11 +52,14 @@ float: left;
 text-align: right;
 
  }
+<<<<<<< HEAD
+=======
  .evszakok{
     text-align: center;
     border:solid 2px #ff8800;
     width: 200px;
     height: 300px;
     float: left;
+>>>>>>> 0c69b5bfdc8183d13863f99801259e88997a85b7
 
  }
