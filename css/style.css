@@ -55,9 +55,12 @@ text-align: right;
 
  .evszakok{
     
-    width: 100px;
-    height: 100px;
+    
     float: left;
     text-align: right;
 
+ }
+ .evszakokkep{
+    width: 100px;
+    height: 100px;
  }
