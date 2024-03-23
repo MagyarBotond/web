@@ -35,7 +35,7 @@
     <input type="button" value="OFF" onclick="kikapcs()">
     <br>
     <div>
-        <img id="click on/of" src="bulb off.jpg" alt="off" onclick="kepvalt()">
+        <img id="click on/of" src="bulb off.jpg" alt="off" onclick="changeImage()">
         <h3>CLICK ME</h3>
     </div>
     
@@ -49,14 +49,14 @@
             document.getElementById("ki").style.display = "block";
             document.getElementById("be").style.display = "none";
         }
-        function kepvalt() {
-            var image = document.getElementById ("click on/of");
-            if (image.scr.match("bulb on")) {
-                image.scr = "bulb off.jpg";
-            }
-            else{
-                image.scr = "bulb on.jpg"
-            }
+        function changeImage() {
+  var image = document.getElementById('click on/of');
+  if (image.src.match("bulb on")) {
+    image.src = "bulb off.jpg";
+  } 
+  else {
+    image.src = "bulb on.jpg";
+  }
         }
 
     </script>
