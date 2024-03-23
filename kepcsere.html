@@ -28,12 +28,7 @@
         <li><a href="kepcsere.html">KÉPCSRERE FELADAT</a></li>
     </ul>
     <br>
-    <img src="bulb off.jpg" alt="off" id="ki">
-    <img src="bulb on.jpg" alt="on" id="be">
-    <br>
-    <input type="button" value="ON" onclick="bekapcs()">
-    <input type="button" value="OFF" onclick="kikapcs()">
-    <br>
+    
     <div>
         <img id="myImage" onclick="changeImage()" src="bulb off.jpg" width="100" height="180">
         <h3>CLICK ME</h3>
@@ -41,14 +36,6 @@
     
     <script>
 
-        function bekapcs() {
-            document.getElementById("be").style.display = "block";
-            document.getElementById("ki").style.display = "none";
-        }
-        function kikapcs() {
-            document.getElementById("ki").style.display = "block";
-            document.getElementById("be").style.display = "none";
-        }
         function changeImage() {
   var image = document.getElementById('myImage');
   if (image.src.match("bulb on")) {
