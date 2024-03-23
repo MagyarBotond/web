@@ -28,15 +28,15 @@
         <li><a href="kepcsere.html">KÉPCSRERE FELADAT</a></li>
     </ul>
     <br>
-    <img src="bulb off.jpg" alt="off" id="ki">
-    <img src="bulb on.jpg" alt="on" id="be">
+    <img src="bulboff.jpg" alt="off" id="ki">
+    <img src="bulbon.jpg" alt="on" id="be">
     <br>
     <input type="button" value="ON" onclick="bekapcs()">
     <input type="button" value="OFF" onclick="kikapcs()">
     <br>
     <div>
-        <img id="myImage" onclick="changeImage()" src="bulb off.jpg" width="100" height="180">
-        <h3>CLICK ME</h3>
+        <img id="myImage" onclick="changeImage()" src="bulboff.jpg" width="100" height="180">
+        <h3>CLICK ME.</h3>
     </div>
     
     <script>
@@ -51,11 +51,11 @@
         }
         function changeImage() {
   var image = document.getElementById('myImage');
-  if (image.src.match("bulb on")) {
-    image.src = "bulb off.jpg";
+  if (image.src.match("bulbon")) {
+    image.src = "bulboff.jpg";
   } 
   else {
-    image.src = "bulb on.jpg";
+    image.src = "bulbon.jpg";
   }
 }
 
