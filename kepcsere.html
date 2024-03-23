@@ -36,7 +36,7 @@
     <br>
     <div>
         <img id="myImage" onclick="changeImage()" src="bulb off.jpg" width="100" height="180">
-        <h3>CLICK ME.</h3>
+        <h3>CLICK ME</h3>
     </div>
     
     <script>
@@ -51,7 +51,7 @@
         }
         function changeImage() {
   var image = document.getElementById('myImage');
-  if (image.src.match("bulb")) {
+  if (image.src.match("bulb on")) {
     image.src = "bulb off.jpg";
   } 
   else {
