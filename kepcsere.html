@@ -35,7 +35,7 @@
     <input type="button" value="OFF" onclick="kikapcs()">
     <br>
     <div>
-        <img id="myImage" onclick="changeImage()" src="pic_bulboff.gif" width="100" height="180">
+        <img id="myImage" onclick="changeImage()" src="bulb off.jpg" width="100" height="180">
         <h3>CLICK ME</h3>
     </div>
     
@@ -51,10 +51,10 @@
         }
         function changeImage() {
   var image = document.getElementById('myImage');
-  if (image.src.match("bulbon")) {
-    image.src = "pic_bulboff.gif";
+  if (image.src.match("bulb on")) {
+    image.src = "bulb off.jpg";
   } else {
-    image.src = "pic_bulbon.gif";
+    image.src = "bulb on.jpg";
   }
 }
 
