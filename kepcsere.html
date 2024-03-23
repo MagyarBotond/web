@@ -35,7 +35,7 @@
     <input type="button" value="OFF" onclick="kikapcs()">
     <br>
     <div>
-        <img id="myImage" onclick="changeImage()" src="bulboff.jpg" width="100" height="180">
+        <img id="bulb_on/off" onclick="kepcsere()" src="bulboff.jpg" width="100" height="180">
         <h3>CLICK ME.</h3>
     </div>
     
@@ -49,8 +49,8 @@
             document.getElementById("ki").style.display = "block";
             document.getElementById("be").style.display = "none";
         }
-        function changeImage() {
-  var image = document.getElementById('myImage');
+        function kepcsere() {
+  var image = document.getElementById("bulb_on/off");
   if (image.src.match("bulbon")) {
     image.src = "bulboff.jpg";
   } 
