@@ -1,105 +1,147 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Étterem</title>
-    <style>
-        h1,h2,h4{
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitalált Étterem vagy Kávézó</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
-        <ul>
-        <li><a href="index.html">VISSZA A FŐOLDALRA!</a> </li>
-        <li><a href="keplink.html">KÉPLINK FELADAT</a> </li>
-        <li><a href="listák.html">LISTÁK FELADAT</a> </li>
-        <li><a href="táblázat.html">TÁBLÁZAT FELADAT</a> </li>
-        <li><a href="urlap.html">ÜRLAP FELADAT</a></li>
-        <li><a href="DIV.html">DIV FELADAT</a></li>
-        <li><a href="evszakok.html">ÉVSZAKOK FELADAT</a></li>
-        <li><a href="kepcsere.html">KÉPCSRERE FELADAT</a></li>
-        <li><a href="eterem.html">ÉTEREM WEBOLDAL FELADAT</a></li>
-    </ul>
+<body style="background-image: url(wood-background.jpg);">
 
-    <header style="background-color: rgb(33, 131, 33); overflow: hidden;" >
-        <h1>Shrek's Pizza</h1>
-        <h4>2011-óta nyitva</h4>
-    </header>
- <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="background-color: rgb(50, 66, 48); overflow: hidden;">
-        <div class="container-fluid">
-          <ul class="navbar-nav">
-            <li class="nav-item" style="background-color: rgb(50, 66, 48);">
-              <a class="nav-link" href="#section1">Main</a>
-            </li>
-            <li class="nav-item" style="background-color: rgb(50, 66, 48);">
-              <a class="nav-link" href="#section2">Menu</a>
-            </li>
-            <li class="nav-item" style="background-color: rgb(50, 66, 48);">
-              <a class="nav-link" href="#section3">Contact </a>
-            </li>
-          </ul>
-        </div>
-        <br>
-      </nav>
+      <div style="background-image:url(pizza-oven.jpg ); background-position-x: center; background-repeat: no-repeat; background-size: 100%;" >
+      <header class="text-center py-5 ">
+        <h1 class=" bg-dark text-white">Garry's Pizza</h1>
+        <p class=" bg-dark text-white">
+            Garry's Pizza egy kényelmes és ízletes étterem, ahol friss és minőségi összetevőkből készült pizzákat kínálnak. Az étterem hangulata barátságos és családias, ideális helyszín egy gyors ebédre vagy egy kellemes vacsorára. Az étlapon széles választék áll rendelkezésre, hogy mindenki megtalálja a kedvencét. A Garry's Pizza büszkén fogadja vendégeit, hogy megoszthassa velük az igazi olasz pizzakészítés élményét.</p>
+      </header>
+      </div>
+  </div>
 
-    <div style="display: block; margin:50px; text-align: center;" id="section1">
-        <img src="Shrek's Pizza.jpg" alt="Shrek's Pizza" width="800px" height="400px" >
-
-       <h4>Üdvözlünk Shrek's Pizza-ba</h4>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Főoldal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Étlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kapcsolat</a>
+          </li>
+        </ul>
+      </div>
     </div>
-   <br>
+  </nav>
 
-    <div class="row" id="section2" style="background-color: darkolivegreen; padding: 150px; overflow: hidden; border-top: 100px; border-bottom: 100px;"  >
-<div class="container-fluid">
-        <div class="col-md-2" style="background-color:darkseagreen; padding: 50px; margin: 10px; border: 1px solid black; color: black; ">
-            <h3>Margaréta Pizza</h3>
-            <p>(paradicsom alap, mozzarella sajt )</p>
-            <p>Ár: 16$</p>
+  <section id="home" class="py-5 text-center ">
+    <div class="container">
+      <img src="pizza-restaurant.jpg" alt="" style=" width:900px ; height: 500px; ">
+        <p class=" bg-dark text-white">Üdvözöljük a Garry's Pizza-ban! Friss és ízletes pizzáinkkal, valamint barátságos kiszolgálásunkkal szeretnénk emlékezetessé tenni az itt töltött időt. Jó étvágyat kívánunk!</p>
+    </div>
+  </section>
+
+
+<section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 bg-dark text-white">Étlap</h2>
+      <div class="row " style="margin-bottom: 100px;">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="Margaréta-Pizza.jpg " class="card-img-top" alt="Margaréta Pizza" style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Margaréta Pizza</h5>
+              <p class="card-text">Ár: 10$</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-2 " style="background-color:darkseagreen; padding: 50px; margin: 10px; border: 1px solid black; color: black; height: 400; width: 800;">
-            <h3>Csirkehúsos Pizza</h3>
-            <p>(paradicsom alap, sonka, csirkemel, kukorica, mozzarella sajt)</p>
-            <p>Ár: 18$</p>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="pep pizza.jpg" class="card-img-top" alt="Pepperoni Pizza" style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Pepperoni Pizza</h5>
+              <p class="card-text">Ár: 15$</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-2 display-4" style="background-color:darkseagreen; padding: 50px; margin: 10px; border: 1px solid black; color: black; height: 400; width: 800;">
-            <h3>Havaii Pizza</h3>
-            <p>(paradicsom alap, sonka, ananász, mozzarella sajt)</p>
-            <p>Ár: 18$</p>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="Meatlovers-pizza.jpg" class="card-img-top" alt="Húsimádó Pizza" style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Húsimádó Pizza</h5>
+              <p class="card-text">Ár: 15$</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-2 display-4" style="background-color:darkseagreen; padding: 50px; margin: 10px; border: 1px solid black; color: black; height: 400; width: 800;">
-            <h3>Kebab</h3>
-            <p>(salátával és kaprros szószal tálat dönner)</p>
-            <p>Ár: 15$</p>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="Tenger-Gyümöl-pizza.jpg" class="card-img-top" alt="Tenger Gyümölcse pizza" style="height: 300px;">
+              <div class="card-body">
+                <h5 class="card-title">Tenger Gyümölcse Pizza</h5>
+                <p class="card-text">Ár: 15$</p>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="hawaiian-pizza.jpg" class="card-img-top" alt="Hawaii Pizza" style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Hawaii Pizza</h5>
+              <p class="card-text">Ár: 15$</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-2 display-4" style="background-color:darkseagreen; padding: 50px; margin: 10px; border: 1px solid black; color: black; height: 400; width: 800;">
-            <h3>Shrek kedvence</h3>
-            <p>(Rántott csirkemell, hasábburgonyával)</p>
-            <p>Ár: 10$</p>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="kebab-tál.jpg" class="card-img-top" alt="KEBAB TÁL" style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Kebab Tál</h5>
+              <p class="card-text">Ár: 13$</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 </div>
+  </section>
+  
+      </div>
+    </div>
+  </section>
 
-<br>
-<br>
-<br>
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 bg-dark text-white">Kapcsolat</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group  bg-dark text-white">
+              <label for="name">Név</label>
+              <input type="text" class="form-control" id="name" placeholder="Írd ide a neved">
+            </div>
+            <div class="form-group  bg-dark text-white">
+              <label for="email">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="Írd ide az e-mail címed">
+            </div>
+            <div class="form-group  bg-dark text-white">
+              <label for="message">Üzenet</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Írd ide az üzeneted"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Küldés</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div id="section3" style=" padding-top: 500px; overflow: hidden; text-align: center;">
-<footer>
-    <label for="fname" >Név:</label>
-    <input type="text" id="fname" name="fname" value="">
-    <br>
-    <label for="fname">Email cím:</label>
-    <input type="text" id="fname" name="fname" value="">
-    <br>
-    <label for="fname">Üzenet:</label>
-    <input type="text" id="fname" name="fname" value="">
-    <br>
-    <input type="submit" value="KÜLDÉS" style="color: black;">
-</footer>
-</div>
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Kitalált Étterem . Minden jog fenntartva.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
