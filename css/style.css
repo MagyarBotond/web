@@ -9,18 +9,14 @@ footer{
 
 
   .PORTAL{
-    li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    }
-    li a:hover {
-        background-color: #ff8800;
-        font-weight: bold;
-    }
-    ul {
+    background-color: #ff8800;
+    font-weight: bold;
+
     list-style-type: none;
     margin: 0;
     padding: 0;
