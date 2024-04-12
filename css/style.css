@@ -7,18 +7,9 @@ body{
     background-color: rgb(97, 97, 97);
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffa947;
-}
-li {
-    float: left;
-  }
-  
-  li a {
+
+  .PORTAL{
+    li a {
     display: block;
     color: white;
     text-align: center;
@@ -29,6 +20,19 @@ li {
         background-color: #ff8800;
         font-weight: bold;
     }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffa947;
+}
+li {
+    float: left;
+  }
+}
+  
+  
 .box1{
     background-color: rgb(25, 0, 255);
     
