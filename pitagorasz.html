@@ -20,7 +20,7 @@
 <body>
     <h1 class="jersey-20-charted-regular">Pitagorasz tétele</h1>
     <img src="https://www.matekmindenkinek.hu/files/article/article_210/Pitagorasz%20t%C3%A9tel_sm.webp" style="float: left;" alt="">
-    <div class=""> 
+    <div class="container"> 
     <form action="">
         <legend></legend>
         <label for="a">A oldal</label>
@@ -44,7 +44,19 @@
         A tétel. Bármely derékszögű háromszög leghosszabb oldalának (átfogójának) négyzete megegyezik a másik két oldal (a befogók) négyzetösszegével. Tehát: ha egy háromszög derékszögű, akkor a leghosszabb oldalára emelt négyzet területe a másik két oldalra emelt négyzetek területének összegével egyenlő.
     </div>
    <script>
-       
+      // Űrlap eseményfigyelő hozzáadása
+      document.getElementById("pitagorasForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Űrlap elküldésének megakadályozása
+
+            // Befogók (a és b oldalak) kiolvasása az input mezőkből
+            let a = parseFloat(document.getElementById("aInput").value);
+            let b = parseFloat(document.getElementById("bInput").value);
+
+            // Pitagorasz-tétel szerint az átfogó (c oldal) kiszámítása
+            let c = Math.sqrt(a*a + b*b);
+
+            // Eredmény kiírása az eredmény konténerbe
+            document.getElementById("resultContainer").innerHTML = `<p>Derékszögű háromszög átfogója (c oldal): ${c}</p>`;
    </script>
 
 </body>
