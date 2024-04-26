@@ -43,21 +43,20 @@
     <div class="jersey-20-charted-regular" style="float: inline-end; font-size: 25px;">
         A tétel. Bármely derékszögű háromszög leghosszabb oldalának (átfogójának) négyzete megegyezik a másik két oldal (a befogók) négyzetösszegével. Tehát: ha egy háromszög derékszögű, akkor a leghosszabb oldalára emelt négyzet területe a másik két oldalra emelt négyzetek területének összegével egyenlő.
     </div>
-   <script>
-      // Űrlap eseményfigyelő hozzáadása
-      document.getElementById("pitagorasForm").addEventListener("submit", function(event) {
-            event.preventDefault(); // Űrlap elküldésének megakadályozása
+    <script>
+      function calculatePitagoras() {
+          let sideA = parseFloat(document.getElementById('a').value);
+          let sideB = parseFloat(document.getElementById('b').value);
 
-            // Befogók (a és b oldalak) kiolvasása az input mezőkből
-            let a = parseFloat(document.getElementById("aInput").value);
-            let b = parseFloat(document.getElementById("bInput").value);
-
-            // Pitagorasz-tétel szerint az átfogó (c oldal) kiszámítása
-            let c = Math.sqrt(a*a + b*b);
-
-            // Eredmény kiírása az eredmény konténerbe
-            document.getElementById("resultContainer").innerHTML = `<p>Derékszögű háromszög átfogója (c oldal): ${c}</p>`;
-   </script>
+          if (isNaN(sideA) || isNaN(sideB)) {
+              alert("Kérlek, érvényes számokat adj meg az oldalak hosszához!");
+              return;
+          }
+          let hypotenuse = Math.sqrt(sideA * sideA + sideB * sideB);
+          let hypotenuseSquared = hypotenuse * hypotenuse;
+          document.getElementById('c').value = hypotenuseSquared.toFixed(2);
+      }
+  </script>
 
 </body>
 </html>
