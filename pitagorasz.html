@@ -48,8 +48,12 @@
           let sideA = parseFloat(document.getElementById('a').value);
           let sideB = parseFloat(document.getElementById('b').value);
 
-          if (isNaN(sideA) || isNaN(sideB)) {
+          if (isNaN(sideA) {
               alert("Kérlek, érvényes számokat adj meg az oldalak hosszához!");
+              return;
+          }
+          isNaN(sideB)){
+            alert("Kérlek, érvényes számokat adj meg az oldalak hosszához!");
               return;
           }
           let hypotenuse = Math.sqrt(sideA * sideA + sideB * sideB);
