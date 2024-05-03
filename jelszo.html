@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="http-equiv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jelszó</title>
+</head>
+<body>
+    <form action="javascript:mutasd()">
+        <input type="text" name="adat" id="nev" placeholder="nev">
+        <br>
+        <input type="password" name="adat" id="jel" placeholder="jel">
+        <br>
+        <h4>Hány éves vagy?</h4> 
+        <input type="radio" name="adat" id="op1" >
+        <label for="op1">16 év alatti</label>
+        <br>
+        <input type="radio" name="adat" id="op2" >
+        <label for="op2">18 éves</label>
+        <br>
+        <input type="radio" name="adat" id="op3" >
+        <label for="o3">19 év feletti</label>
+        <br>
+        <input type="submit" value="OK">
+
+    </form>
+    <script>
+        function mutasd(){
+            alert("Helló " + nev.value + "! A jelszavad: " + jel.value)
+        }
+        if (op1.value == on) alert("16 év alatti")
+    </script>
+
+</body>
+</html>
