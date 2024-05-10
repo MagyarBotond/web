@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="javascript:muti()">
+        <input type="text" value="" placeholder="email" id="email">
+        <br>
+        <input type="text" value="" placeholder="név" id="nev">
+        <br>
+        <input type="checkbox" name="" id="tick1" checked>
+        <label for="tick1">Á.SZ.F (Általános Szerződési Feltételek) elfogadása</label>
+        <br>
+        <input type="checkbox" name="" id="tick2" checked>
+        <label for="tick2">Hírlevélre feliratkozás</label>
+        <br>
+        <input type="submit" value="OK">
+
+    </form>
+    <script>
+        function muti() {
+            if (tick1.checked) {
+                localStorage.setItem("email", email.value)
+                localStorage.setItem("nev", nev.value)
+                if (tick2.checked){
+                    localStorage.setItem("Hír", "igen");
+                }
+            }
+            else {
+                alert("fogad el az A.SZ.F-tS")
+            }
+        }
+
+    </script>
+</body>
+
+</html>
